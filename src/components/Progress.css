@@ -1,0 +1,48 @@
+.progress {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: white;
+  } 
+  .heading{
+      color: black;
+      text-transform: uppercase;
+  }
+  
+  
+  .percentage {
+    color: black;
+  }
+  @media (max-width: 986px) {
+    .progress {
+      display: flex;
+      height: 100px;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+  
+      overflow: hidden;
+      font-size: 0.75rem;
+      background-color: white;
+      border-radius: 0.25rem;
+      margin-top: 25px;
+    }
+    #file {
+      width: 380px;
+    }
+  }
+  @media (max-width: 400px){
+      body{
+          overflow-x: hidden;
+      }
+      #file{
+          width: 250px;
+      }
+      .Trait{
+        display: none;
+      }
+  }
+  

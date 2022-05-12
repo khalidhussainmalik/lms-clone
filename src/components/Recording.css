@@ -1,0 +1,42 @@
+.container{
+    /* justify-content: center; */
+
+}
+table{
+    font-family: arial, sans-serif;
+    width: 100%;
+
+}
+
+td{
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+th{
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align:left;
+}
+tr:nth-child(odd) {
+    background-color: #dddddd;
+
+  }
+  tr{
+      font-size: small;
+  }
+.video-title{
+    color: blue;
+}
+.watch-video{
+    color: blue;
+}
+td a{
+    text-decoration: none;
+    text-align: left;
+    font-weight: 700;
+}
+.table-heading{
+    text-transform: uppercase;
+}

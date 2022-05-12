@@ -1,0 +1,55 @@
+body{
+    box-sizing: border-box;
+}
+header {
+    background: #000217;
+    height: 11rem;
+}
+
+.navbar {
+    background: #000217;
+    margin-left: 250px;
+    margin-right: 250px;
+    color: #fff;
+    border-bottom: 1px solid rgba(218, 216, 216, 0.276);
+}
+
+.logo {
+    width: 100px;
+}
+
+.profile-pic{
+    width: 25px;
+    border-radius: 50%;
+}
+
+main{
+    height: 100vh;
+    /* height: 100%; */
+    width: 100%;
+    background: #e4e8ed;
+}
+
+.footer {
+    color: rgb(160, 156, 156);
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.footer p{
+    font-size: 12px;
+}
+
+footer .footer .social-links ul{
+    width: 200px;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+footer .footer .social-links ul li a{
+    color: rgb(160, 156, 156);
+}

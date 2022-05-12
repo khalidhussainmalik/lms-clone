@@ -1,0 +1,7 @@
+.list-css{
+    display: flex;
+    flex-direction: column;
+}
+.fa-check {
+    margin-right: 10px;
+}
